@@ -32,7 +32,7 @@ package_extract_file("patch/audio_effects_vendor.conf", "/system/etc/audio_effec
 set_progress(0.500000);
 
 ui_print("Setting permissions...");
-set_perm(0, 0, 0644, "/vendor/etc/audio_effects_vendor.conf");
+set_perm(0, 0, 0644, "/system/etc/audio_effects_vendor.conf");
 set_progress(0.700000);
 
 # Unmounting filesystems...
