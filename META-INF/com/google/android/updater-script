@@ -1,3 +1,4 @@
+assert(getprop("ro.product.device") == "angler" || getprop("ro.build.product") == "angler" || abort("This package is for device: angler; this device is " + getprop("ro.product.device") + "."););
 ui_print(" ********************************************** ");
 ui_print(" *************Dysfunctional**ROMs************** ");
 ui_print(" ******************presents******************** ");
