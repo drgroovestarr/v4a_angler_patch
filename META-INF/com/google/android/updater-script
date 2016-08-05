@@ -26,6 +26,10 @@ ui_print("Cleaning Up...");
 delete("/system/etc/audio_effects.conf");
 delete("/system/etc/audio_policy.conf");
 delete("/system/lib/soundfx/libv4a_fx_ics.so");
+set_progress(0.200000);
+
+ui_print("Killing MusicFX...");
+delete_recursive("/system/priv-app/MusicFX");
 set_progress(0.300000);
 
 ui_print("Extracting files...");
